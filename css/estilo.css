@@ -1,0 +1,48 @@
+
+* {
+margin: 0;
+padding: 0;}
+
+body{
+  background: whitesmoke;
+  background-image: url("https://www.xmple.com/wallpaper/gradient-brown-blue-linear-1920x1080-c2-800000-191970-a-330-f-14.svg");
+  font-family: arial;
+  background-size:150 100vh;
+
+}
+
+.menu{
+  background-color: white;
+  margin-bottom: 4vh;
+ 
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+  color: teal;
+}
+
+a:holver{
+  text-decoration: underline;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.site-subtitle,
+.site-title{
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+.site-subtitle{
+  font-style: italic;
+  margin-top:2vh;
+}
