@@ -1,25 +1,52 @@
 
 * {
-margin: 0;
-padding: 0;}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
 
 body{
-  background: whitesmoke;
-  background-image: url("https://www.xmple.com/wallpaper/gradient-brown-blue-linear-1920x1080-c2-800000-191970-a-330-f-14.svg");
+  background: rgb(63, 61, 61);
+  /*background-image: url("https://www.xmple.com/wallpaper/gradient-brown-blue-linear-1920x1080-c2-800000-191970-a-330-f-14.svg");*/
   font-family: arial;
   background-size:150 100vh;
 
 }
 
+@media(min-width: 560px){
+  
+  body{
+    font-size:22px;
+
+  }
+
+}
+
+header{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu{
   background-color: white;
-  margin-bottom: 4vh;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+
  
 }
 
 .menu ul{
   display: flex;
   justify-content: space-around;
+}
+
+.menu a{  
+  display: block;
+  padding: 10px 20px;
 }
 
 a{
@@ -42,7 +69,17 @@ a:holver{
 
 }
 
+.site-title{
+  font-size: 2em;
+}
+
 .site-subtitle{
   font-style: italic;
-  margin-top:2vh;
+  margin-top:2  vh;
+}
+
+.img-portfolio{
+
+  height: 180px;
+  width: 180px;
 }
